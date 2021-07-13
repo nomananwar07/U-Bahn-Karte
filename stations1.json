@@ -64,10 +64,22 @@
          "label":"Betriebsorganisation Ablauf"
       },
       "BetriebsorganisationAblauf2":{
-         "label":"Betriebsorganisation Ablauf"
+         "label":"Betriebsorganisation\nAblauf"
       },
       "ProcessMining":{
          "label":"Process Mining"
+      },
+      "Fähigkeiten":{
+         "label":"Fähigkeiten"
+      },
+      "Fähigkeiten2":{
+         "label":"Fähigkeiten"
+      },
+      "FachlicheQualifikation":{
+         "label":"Fachliche Qualifikation"
+      },
+      "Diversifikation":{
+         "label":"Diversifikation"
       }
    },
    "lines":[
@@ -270,7 +282,7 @@
                ],
                "name": "AgileTeams",
                "marker":"interchange",
-               "labelPos":"N"
+               "labelPos":"NE"
             },
             {
                "coords":[
@@ -321,7 +333,7 @@
          "color":"#ed6161",
          "shiftCoords":[
             0,
-            0
+            1
          ],
          "nodes":[
             {
@@ -372,8 +384,7 @@
                   32
                ],
                "name": "AgileTeams",
-               "marker":"interchange",
-               "labelPos":"N"
+               "marker":"interchange"
             },
             {
                "coords":[
@@ -441,7 +452,7 @@
          "name":"BetriebsorganisationAblauf",
          "color":"#000000",
          "shiftCoords":[
-            0,
+            1,
             1
          ],
          "nodes":[
@@ -491,9 +502,7 @@
                   43,
                   19
                ],
-               "name":"BPMN",
-               "marker":"interchange",
-               "labelPos":"N"
+               "name":"BPMN"
             },
             {
                "coords":[
@@ -554,6 +563,147 @@
                "name":"BetriebsorganisationAblauf2",
                "marker":"interchange",
                "labelPos":"S"
+            }
+         ]
+      },
+      {
+         "name":"Fähigkeiten",
+         "color":"#41cf21",
+         "shiftCoords":[
+            1,
+            2
+         ],
+         "nodes":[
+            {
+               "coords":[
+                  27,
+                  49
+               ],
+               "name":"Fähigkeiten",
+               "marker":"interchange",
+               "labelPos":"N"
+            },
+            {
+               "coords":[
+                  33,
+                  43
+               ],
+               "name":"FachlicheQualifikation",
+               "marker":"interchange",
+               "labelPos":"NE"
+            },
+            {
+               "coords":[
+                  37,
+                  39
+               ]
+            },
+            {
+               "coords":[
+                  38,
+                  37
+               ]
+            },
+            {
+               "coords":[
+                  38,
+                  32
+               ],
+               "name": "AgileTeams"
+            },
+            {
+               "coords":[
+                  38,
+                  20
+               ]
+            },
+            {
+               "coords":[
+                  39,
+                  19
+               ]
+            },
+            {
+               "coords":[
+                  43,
+                  19
+               ],
+               "name":"BPMN"
+            },
+            {
+               "coords":[
+                  55,
+                  19
+               ],
+               "name":"Wandlungsfaehigkeit"
+            },
+            {
+               "coords":[
+                  68,
+                  19
+               ],
+               "name":"Prozessmanagement"
+            },
+            {
+               "coords":[
+                  78,
+                  19
+               ]
+            },
+            {
+               "coords":[
+                  80,
+                  18
+               ]
+            },
+            {
+               "coords":[
+                  85,
+                  13
+               ],
+               "name":"ProcessMining"
+            },
+            {
+               "coords":[
+                  88,
+                  10
+               ]
+            },
+            {
+               "coords":[
+                  89,
+                  8
+               ]
+            },
+            {
+               "coords":[
+                  89,
+                  5
+               ]
+            },
+            {
+               "coords":[
+                  88,
+                  3
+               ]
+            },
+            {
+               "coords":[
+                  84,
+                  -1
+               ],
+               "name":"Diversifikation",
+               "marker":"interchange",
+               "labelPos":"NW"
+            },
+            {
+               "coords":[
+                  80,
+                  -5
+               ],
+               "name":"Fähigkeiten2",
+               "marker":"interchange",
+               "labelPos":"SW"
             }
          ]
       }
