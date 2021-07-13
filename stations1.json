@@ -59,6 +59,15 @@
       },
       "DevOps":{
          "label":"DevOps"
+      },
+      "BetriebsorganisationAblauf":{
+         "label":"Betriebsorganisation Ablauf"
+      },
+      "BetriebsorganisationAblauf2":{
+         "label":"Betriebsorganisation Ablauf"
+      },
+      "ProcessMining":{
+         "label":"Process Mining"
       }
    },
    "lines":[
@@ -312,7 +321,7 @@
          "color":"#ed6161",
          "shiftCoords":[
             0,
-            1
+            0
          ],
          "nodes":[
             {
@@ -427,6 +436,126 @@
                "labelPos":"E"
             }
          ]
-      }    
+      },
+      {
+         "name":"BetriebsorganisationAblauf",
+         "color":"#000000",
+         "shiftCoords":[
+            0,
+            1
+         ],
+         "nodes":[
+            {
+               "coords":[
+                  0,
+                  48
+               ],
+               "name":"BetriebsorganisationAblauf",
+               "marker":"interchange",
+               "labelPos":"N"
+            },
+            {
+               "coords":[
+                  8,
+                  40
+               ],
+               "name":"Prozessdigitalisierung",
+               "marker":"interchange",
+               "labelPos":"NE"
+            },
+            {
+               "coords":[
+                  16,
+                  32
+               ]
+            },
+            {
+               "coords":[
+                  17,
+                  30
+               ]
+            },
+            {
+               "coords":[
+                  17,20
+
+               ]
+            },
+            {
+               "coords":[
+                  18,19
+               ]
+            },
+            {
+               "coords":[
+                  43,
+                  19
+               ],
+               "name":"BPMN",
+               "marker":"interchange",
+               "labelPos":"N"
+            },
+            {
+               "coords":[
+                  55,
+                  19
+               ],
+               "name":"Wandlungsfaehigkeit",
+               "marker":"interchange",
+               "labelPos":"S"
+            },
+            {
+               "coords":[
+                  68,
+                  19
+               ],
+               "name":"Prozessmanagement",
+               "marker":"interchange",
+               "labelPos":"N"
+            },
+            {
+               "coords":[
+                  78,
+                  19
+               ]
+            },
+            {
+               "coords":[
+                  80,
+                  18
+               ]
+            },
+            {
+               "coords":[
+                  85,
+                  13
+               ],
+               "name":"ProcessMining",
+               "marker":"interchange",
+               "labelPos":"SW"
+            },
+            {
+               "coords":[
+                  90,
+                  8
+               ]
+            },
+            {
+               "coords":[
+                  91,
+                  6
+               ]
+            },
+            {
+               "coords":[
+                  91,
+                  0
+               ],
+               "name":"BetriebsorganisationAblauf2",
+               "marker":"interchange",
+               "labelPos":"S"
+            }
+         ]
+      }
    ]
 }
