@@ -29,11 +29,29 @@
       },
       "DataManagement":{
          "label":"Data Management"
+      },
+      "ArbeitsOrganisation":{
+         "label":"Arbeits- \n Organisation"
+      },
+      "ArbeitsOrganisation2":{
+         "label":"Arbeits- \n Organisation"
+      },
+      "Lernen":{
+         "label":"Lernen"
+      },
+      "AgileTeams":{
+         "label":"Agile Teams"
+      },
+      "NewEngineeringCulture":{
+         "label":"New Engineering Culture"
+      },
+      "Arbeitsplatzgestaltung":{
+         "label":"Arbeitsplatzgestaltung"
       }
    },
    "lines":[
       {
-         "name":"LineA",
+         "name":"ItArchitektur",
          "color":"#2b8dbf",
          "shiftCoords":[
             0,
@@ -183,6 +201,97 @@
                "name":"ItArchitektur2",
                "marker":"interchange",
                "labelPos":"N"
+            }
+         ]
+      },
+      {
+         "name":"ArbeitsOrganisation",
+         "color":"#c49d9f",
+         "shiftCoords":[
+            0,
+            0
+         ],
+         "nodes":[
+            {
+               "coords":[
+                  -5,
+                  14
+               ],
+               "name":"ArbeitsOrganisation",
+               "marker":"interchange",
+               "labelPos":"W"
+            },
+            {
+               "coords":[
+                  5,
+                  24
+               ],
+               "name":"Lernen",
+               "marker":"interchange",
+               "labelPos":"W"
+            },
+            {
+               "coords":[
+                  12,
+                  31  
+               ]
+            },
+            {
+               "coords":[
+                  14,
+                  32
+               ]
+            },
+            {
+               "coords":[
+                  38,
+                  32
+               ],
+               "name": "AgileTeams",
+               "marker":"interchange",
+               "labelPos":"N"
+            },
+            {
+               "coords":[
+                  60,
+                  32
+               ],
+               "name":"NewEngineeringCulture",
+               "marker":"interchange",
+               "labelPos":"N"
+            },
+            {
+               "coords":[
+                  79,
+                  32
+               ],
+               "name":"Appisierung",
+               "marker":"interchange",
+               "labelPos":"NE"
+            },
+            {
+               "coords":[
+                  95,
+                  32
+               ],
+               "name":"Arbeitsplatzgestaltung",
+               "marker":"interchange",
+               "labelPos":"SE"
+            },
+            {
+               "coords":[
+                  97,
+                  33
+               ]
+            },
+            {
+               "coords":[
+                  102,
+                  38
+               ],
+               "name":"ArbeitsOrganisation2",
+               "marker":"interchange",
+               "labelPos":"E"
             }
          ]
       }
