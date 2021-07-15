@@ -80,6 +80,24 @@
       },
       "Diversifikation":{
          "label":"Diversifikation"
+      },
+      "Technik":{
+         "label":"Technik"
+      },
+      "Technik2":{
+         "label":"Technik"
+      },
+      "Robotik":{
+         "label":"Robotik"
+      },
+      "AGV":{
+         "label":"AGV"
+      },
+      "KunstlicheIntelligenz":{
+         "label":"Kunstliche Intelligenz"
+      },
+      "Blockchain":{
+         "label":"Blockchain"
       }
    },
    "lines":[
@@ -122,7 +140,7 @@
                ],
                "name":"CloudComputisierung",
                "marker":"interchange",
-               "labelPos":"S"
+               "labelPos":"N"
             },
             {
                "coords":[
@@ -332,7 +350,7 @@
          "name":"BetriebsorganisationAufbau",
          "color":"#ed6161",
          "shiftCoords":[
-            0,
+            -1,
             1
          ],
          "nodes":[
@@ -452,14 +470,14 @@
          "name":"BetriebsorganisationAblauf",
          "color":"#000000",
          "shiftCoords":[
-            1,
+            0,
             1
          ],
          "nodes":[
             {
                "coords":[
-                  0,
-                  48
+                  -2,
+                  50
                ],
                "name":"BetriebsorganisationAblauf",
                "marker":"interchange",
@@ -541,7 +559,7 @@
                ],
                "name":"ProcessMining",
                "marker":"interchange",
-               "labelPos":"SW"
+               "labelPos":"NE"
             },
             {
                "coords":[
@@ -562,7 +580,7 @@
                ],
                "name":"BetriebsorganisationAblauf2",
                "marker":"interchange",
-               "labelPos":"S"
+               "labelPos":"E"
             }
          ]
       },
@@ -570,7 +588,7 @@
          "name":"Fähigkeiten",
          "color":"#41cf21",
          "shiftCoords":[
-            1,
+            0,
             2
          ],
          "nodes":[
@@ -704,6 +722,106 @@
                "name":"Fähigkeiten2",
                "marker":"interchange",
                "labelPos":"SW"
+            }
+         ]
+      },
+      {
+         "name":"Technik",
+         "color":"#f7ed2f",
+         "shiftCoords":[
+            1,
+            -2
+         ],
+         "nodes":[
+            {
+               "coords":[
+                  30,
+                  2
+               ],
+               "name":"Technik",
+               "marker":"interchange",
+               "labelPos":"S"
+            },
+            {
+               "coords":[
+                  30,
+                  11
+               ],
+               "name":"CloudComputisierung"
+            },
+            {
+               "coords":[
+                  31,
+                  12
+               ]
+            },
+            {
+               "coords":[
+                  45,12
+               ],
+               "name":"Robotik",
+               "marker":"interchange",
+               "labelPos":"S"
+            },
+            {
+               "coords":[
+                  65,
+                  12
+               ],
+               "name":"AGV",
+               "marker":"interchange",
+               "labelPos":"S"
+            },
+            {
+               "coords":[
+                  78,
+                  12
+               ]
+            },
+            {
+               "coords":[
+                  79,
+                  13
+               ]
+            },
+            {
+               "coords":[
+                  79, 17
+               ],
+               "name":"KunstlicheIntelligenz",
+               "marker":"interchange",
+               "labelPos":"W"
+            },
+            {
+               "coords":[
+                  79,
+                  40
+               ]
+
+            },
+            {
+               "coords":[
+                  78,
+                  42
+               ]
+            },
+            {
+               "coords":[
+                  73,
+                  47
+               ],
+               "name":"Blockchain",
+               "marker":"interchange",
+               "labelPos":"W"
+            },
+            {
+               "coords":[
+                  68,
+                  52
+               ],
+               "name":"Technik2",
+               "marker":"interchange",
+               "labelPos":"NW"
             }
          ]
       }
