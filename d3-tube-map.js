@@ -17,7 +17,7 @@
   };
 
   const station_image_dim = 25;
-
+  const ellipse_xy_radius = [8,16];
   /**
    * Return the norm of a 2-dimensional vector.
    */
@@ -192,11 +192,15 @@
   }
 
   function interchange(lineWidth) {
+    var tau = 2 * Math.PI;
+    var n = 500;
     return d3.arc()
       .innerRadius(0)
       .outerRadius(1.50 * lineWidth)
-      .startAngle(0)
-      .endAngle(2 * Math.PI);
+      // .startAngle(0)
+      .startAngle(function(d) { return 0; })
+      .endAngle(function(d) { return 4.3 * Math.PI });
+      // .endAngle(2 * Math.PI);
   }
 
   function station(
@@ -593,12 +597,12 @@
         .attr('id', function (d) {
           return d.name;
         })
-        .on('click', function () {
-          var label = d3.select(this);
-          var name = label.attr('id');
-          listeners.call('click', this, name);
+        .on('click', function (d) {
+          listeners.call('click', this, d.label);
         })
         .attr('transform', function (d) {
+          debugger
+          var rotate = d.hasOwnProperty('ellipse') ? "rotate(" + d.ellipse + ")" : '';
           let shiftNormal = interchangeShift(d.marker);
           return (
             'translate(' +
@@ -609,13 +613,24 @@
             yScale(
               d.y + (shiftNormal[1] + d.marker[0].shiftY) * lineWidthMultiplier
             ) +
-            ')'
+            ')' +
+            rotate
           );
         });
 
         map
-        .append('path')
-        .attr('d', interchange(lineWidth))
+        .append("ellipse")
+        .attr("cx", (d) => { return 0; })
+        .attr("cy", (d) => { return 0; })
+        .attr("rx", (d) => { return d.hasOwnProperty('image')? 20 : ellipse_xy_radius[0]; })
+        .attr("ry", (d) => { 
+          return (
+            d.hasOwnProperty('image') ? 
+              20 :
+              d.hasOwnProperty('ellipse') ? 
+                ellipse_xy_radius[1] :
+                ellipse_xy_radius[0]
+          )})
         .attr('stroke-width', lineWidth / 4)
         .attr('fill', function (d) {
           return d.hasOwnProperty("fill_color") ? d.fill_color : bgColor;

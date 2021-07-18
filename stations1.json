@@ -14,19 +14,24 @@
          "label":"Hybride Infrastruktur"
       },
       "CloudComputisierung":{
-         "label":"Cloud Computisierung"
+         "label":"Cloud Computisierung",
+         "ellipse": "0"
       },
       "BPMN":{
-         "label":"BPMN"
+         "label":"BPMN",
+         "ellipse": "0"
       },
       "Wandlungsfaehigkeit":{
-         "label":"Wandlungsfaehigkeit"
+         "label":"Wandlungsfaehigkeit",
+         "ellipse": "0"
       },
       "Prozessmanagement":{
-         "label":"Prozessmanagement"
+         "label":"Prozessmanagement",
+         "ellipse": "0"
       },
       "Appisierung":{
-         "label":"Appisierung"
+         "label":"Appisierung",
+         "ellipse": "90"
       },
       "Microservice":{
          "label":"Microservice"
@@ -48,10 +53,12 @@
          "label":"Lernen"
       },
       "AgileTeams":{
-         "label":"Agile Teams"
+         "label":"Agile Teams",
+         "ellipse": "0"
       },
       "NewEngineeringCulture":{
-         "label":"New Engineering Culture"
+         "label":"New Engineering Culture",
+         "ellipse": "0"
       },
       "Arbeitsplatzgestaltung":{
          "label":"Arbeitsplatzgestaltung"
@@ -67,7 +74,8 @@
          "image": "https://github.com/favicon.ico"
       },
       "Prozessdigitalisierung":{
-         "label":"Prozessdigitalisierung"
+         "label":"Prozessdigitalisierung",
+         "ellipse": "45"
       },
       "DevOps":{
          "label":"DevOps"
@@ -83,7 +91,8 @@
          "image": "https://github.com/favicon.ico"
       },
       "ProcessMining":{
-         "label":"Process Mining"
+         "label":"Process Mining",
+         "ellipse": "45"
       },
       "Fähigkeiten":{
          "label":"Fähigkeiten",
@@ -164,7 +173,7 @@
                ],
                "name":"CloudComputisierung",
                "marker":"interchange",
-               "labelPos":"N"
+               "labelPos":"NW"
             },
             {
                "coords":[
@@ -198,7 +207,8 @@
                "name":"BPMN",
                "marker":"interchange",
                "labelPos":"N",
-               "image":"asda"
+               "labelShiftCoords": [0,1],
+               "shiftCoords":[0,1]
             },
             {
                "coords":[
@@ -207,7 +217,9 @@
                ],
                "name":"Wandlungsfaehigkeit",
                "marker":"interchange",
-               "labelPos":"S"
+               "labelPos":"S",
+               "labelShiftCoords": [0,1],
+               "shiftCoords":[0,1]
             },
             {
                "coords":[
@@ -216,7 +228,9 @@
                ],
                "name":"Prozessmanagement",
                "marker":"interchange",
-               "labelPos":"N"
+               "labelPos":"N",
+               "labelShiftCoords": [0,1],
+               "shiftCoords":[0,1]
             },
             {
                "coords":[
@@ -237,7 +251,9 @@
                ],
                "name":"Appisierung",
                "marker":"interchange",
-               "labelPos":"NE"
+               "labelPos":"NE",
+               "labelShiftCoords": [0,0.5],
+               "shiftCoords":[0,0.5]
             },
             {
                "coords":[
@@ -325,7 +341,9 @@
                ],
                "name": "AgileTeams",
                "marker":"interchange",
-               "labelPos":"NE"
+               "labelPos":"NE",
+               "labelShiftCoords": [0,0.7],
+               "shiftCoords":[0,0.7]
             },
             {
                "coords":[
@@ -334,7 +352,9 @@
                ],
                "name":"NewEngineeringCulture",
                "marker":"interchange",
-               "labelPos":"N"
+               "labelPos":"N",
+               "labelShiftCoords": [0,0.7],
+               "shiftCoords":[0,0.7]
             },
             {
                "coords":[
@@ -407,7 +427,9 @@
                ],
                "name":"Prozessdigitalisierung",
                "marker":"interchange",
-               "labelPos":"NE"
+               "labelPos":"E",
+               "labelShiftCoords": [1,0],
+               "shiftCoords":[0.2,0.2]
             },
             {
                "coords":[
@@ -513,9 +535,7 @@
                   8,
                   40
                ],
-               "name":"Prozessdigitalisierung",
-               "marker":"interchange",
-               "labelPos":"NE"
+               "name":"Prozessdigitalisierung"
             },
             {
                "coords":[
@@ -552,18 +572,14 @@
                   55,
                   19
                ],
-               "name":"Wandlungsfaehigkeit",
-               "marker":"interchange",
-               "labelPos":"S"
+               "name":"Wandlungsfaehigkeit"
             },
             {
                "coords":[
                   68,
                   19
                ],
-               "name":"Prozessmanagement",
-               "marker":"interchange",
-               "labelPos":"N"
+               "name":"Prozessmanagement"
             },
             {
                "coords":[
@@ -584,7 +600,9 @@
                ],
                "name":"ProcessMining",
                "marker":"interchange",
-               "labelPos":"NE"
+               "labelPos":"NE",
+               "labelShiftCoords": [1,1],
+               "shiftCoords":[0.7,0.7]
             },
             {
                "coords":[
