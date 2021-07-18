@@ -1,10 +1,14 @@
 {
    "stations":{
       "ItArchitektur":{
-         "label":"IT Architektur"
+         "label":"IT Architektur",
+         "image": "https://github.com/favicon.ico",
+         "fill_color": "#2b8dbf"
       },
       "ItArchitektur2":{
-         "label":"IT Architektur"
+         "label":"IT Architektur",
+         "fill_color": "#2b8dbf",
+         "image": "https://github.com/favicon.ico"
       },
       "HybrideInfrastruktur":{
          "label":"Hybride Infrastruktur"
@@ -31,10 +35,14 @@
          "label":"Data Management"
       },
       "ArbeitsOrganisation":{
-         "label":"Arbeits- \n Organisation"
+         "label":"Arbeits- \n Organisation",
+         "fill_color":"#8f8f8f",
+         "image": "https://github.com/favicon.ico"
       },
       "ArbeitsOrganisation2":{
-         "label":"Arbeits- \n Organisation"
+         "label":"Arbeits- \n Organisation",
+         "fill_color":"#8f8f8f",
+         "image": "https://github.com/favicon.ico"
       },
       "Lernen":{
          "label":"Lernen"
@@ -49,10 +57,14 @@
          "label":"Arbeitsplatzgestaltung"
       },
       "BetriebsorganisationAufbau":{
-         "label":"Betriebsorganisation \n Aufbau"
+         "label":"Betriebsorganisation \n Aufbau",
+         "fill_color": "#ed6161",
+         "image": "https://github.com/favicon.ico"
       },
       "BetriebsorganisationAufbau2":{
-         "label":"Betriebsorganisation \n Aufbau"
+         "label":"Betriebsorganisation \n Aufbau",
+         "fill_color": "#ed6161",
+         "image": "https://github.com/favicon.ico"
       },
       "Prozessdigitalisierung":{
          "label":"Prozessdigitalisierung"
@@ -61,19 +73,27 @@
          "label":"DevOps"
       },
       "BetriebsorganisationAblauf":{
-         "label":"Betriebsorganisation Ablauf"
+         "label":"Betriebsorganisation Ablauf",
+         "fill_color":"#000000",
+         "image": "https://github.com/favicon.ico"
       },
       "BetriebsorganisationAblauf2":{
-         "label":"Betriebsorganisation\nAblauf"
+         "label":"Betriebsorganisation\nAblauf",
+         "fill_color":"#000000",
+         "image": "https://github.com/favicon.ico"
       },
       "ProcessMining":{
          "label":"Process Mining"
       },
       "Fähigkeiten":{
-         "label":"Fähigkeiten"
+         "label":"Fähigkeiten",
+         "fill_color":"#41cf21",
+         "image": "https://github.com/favicon.ico"
       },
       "Fähigkeiten2":{
-         "label":"Fähigkeiten"
+         "label":"Fähigkeiten",
+         "fill_color":"#41cf21",
+         "image": "https://github.com/favicon.ico"
       },
       "FachlicheQualifikation":{
          "label":"Fachliche Qualifikation"
@@ -82,10 +102,14 @@
          "label":"Diversifikation"
       },
       "Technik":{
-         "label":"Technik"
+         "label":"Technik",
+         "fill_color": "#f7ed2f",
+         "image": "https://github.com/favicon.ico"
       },
       "Technik2":{
-         "label":"Technik"
+         "label":"Technik",
+         "fill_color": "#f7ed2f",
+         "image": "https://github.com/favicon.ico"
       },
       "Robotik":{
          "label":"Robotik"
@@ -173,7 +197,8 @@
                ],
                "name":"BPMN",
                "marker":"interchange",
-               "labelPos":"N"
+               "labelPos":"N",
+               "image":"asda"
             },
             {
                "coords":[

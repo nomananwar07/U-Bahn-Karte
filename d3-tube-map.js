@@ -16,6 +16,8 @@
     NW: [-1, 1],
   };
 
+  const station_image_dim = 25;
+
   /**
    * Return the norm of a 2-dimensional vector.
    */
@@ -573,7 +575,7 @@
         })
         .attr('fill', 'none')
         .attr('stroke-width', function (d) {
-          return d.highlighted ? lineWidth * 1.3 : lineWidth;
+          return d.highlighted ? lineWidth * 1.3 : lineWidth * 0.5;
         })
         .classed('line', true);
     }
@@ -581,8 +583,7 @@
     function drawInterchanges() {
       var fgColor = '#000000';
       var bgColor = '#ffffff';
-
-      gMap
+      var map = gMap
         .append('g')
         .attr('class', 'interchanges')
         .selectAll('path')
@@ -597,8 +598,6 @@
           var name = label.attr('id');
           listeners.call('click', this, name);
         })
-        .append('path')
-        .attr('d', interchange(lineWidth))
         .attr('transform', function (d) {
           let shiftNormal = interchangeShift(d.marker);
           return (
@@ -612,16 +611,30 @@
             ) +
             ')'
           );
-        })
-        .attr('stroke-width', lineWidth / 2)
+        });
+
+        map
+        .append('path')
+        .attr('d', interchange(lineWidth))
+        .attr('stroke-width', lineWidth / 4)
         .attr('fill', function (d) {
-          return d.visited ? fgColor : bgColor;
+          return d.hasOwnProperty("fill_color") ? d.fill_color : bgColor;
         })
         .attr('stroke', function (d) {
-          return d.visited ? bgColor : fgColor;
+          return d.hasOwnProperty("fill_color") ? d.fill_color : fgColor;
+
         })
         .classed('interchange', true)
         .style('cursor', 'pointer');
+
+        map
+        .append("svg:image")
+        .attr("x", -(station_image_dim/2))
+        .attr("y", -(station_image_dim/2))
+        .attr("height", station_image_dim)
+        .attr("width", station_image_dim)
+        .attr("xlink:href", function(d) { return d.hasOwnProperty('image') ? d.image: '';} )
+        .style("display", function(d) { return d.hasOwnProperty('image') ? 'block': 'none';} );
     }
 
     function drawStations() {
