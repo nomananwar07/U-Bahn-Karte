@@ -598,10 +598,9 @@
           return d.name;
         })
         .on('click', function (d) {
-          listeners.call('click', this, d.label);
+          listeners.call('click', this, d);
         })
         .attr('transform', function (d) {
-          debugger
           var rotate = d.hasOwnProperty('ellipse') ? "rotate(" + d.ellipse + ")" : '';
           let shiftNormal = interchangeShift(d.marker);
           return (
@@ -649,7 +648,8 @@
         .attr("height", station_image_dim)
         .attr("width", station_image_dim)
         .attr("xlink:href", function(d) { return d.hasOwnProperty('image') ? d.image: '';} )
-        .style("display", function(d) { return d.hasOwnProperty('image') ? 'block': 'none';} );
+        .style("display", function(d) { return d.hasOwnProperty('image') ? 'block': 'none';} )
+        .style('cursor', 'pointer');
     }
 
     function drawStations() {
@@ -663,10 +663,8 @@
         .attr('id', function (d) {
           return d.name;
         })
-        .on('click', function () {
-          var label = d3.select(this);
-          var name = label.attr('id');
-          listeners.call('click', this, name);
+        .on('click', function (d) {
+          listeners.call('click', this, d);
         })
         .append('path')
         .attr('d', function (d) {
@@ -704,10 +702,8 @@
           return d.name;
         })
         .classed('label', true)
-        .on('click', function () {
-          var label = d3.select(this);
-          var name = label.attr('id');
-          listeners.call('click', this, name);
+        .on('click', function (d) {
+          listeners.call('click', this, d);
         })
         .append('text')
         .text(function (d) {

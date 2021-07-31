@@ -3,134 +3,266 @@
       "ItArchitektur":{
          "label":"IT Architektur",
          "image": "https://github.com/favicon.ico",
-         "fill_color": "#2b8dbf"
+         "fill_color": "#2b8dbf",
+         "modal_data" : {
+            "image": "",
+            "description": "test description"
+         }
       },
       "ItArchitektur2":{
          "label":"IT Architektur",
          "fill_color": "#2b8dbf",
-         "image": "https://github.com/favicon.ico"
+         "image": "https://github.com/favicon.ico",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "HybrideInfrastruktur":{
-         "label":"Hybride Infrastruktur"
+         "label":"Hybride Infrastruktur",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "CloudComputisierung":{
          "label":"Cloud Computisierung",
-         "ellipse": "0"
+         "ellipse": "0",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "BPMN":{
          "label":"BPMN",
-         "ellipse": "0"
+         "ellipse": "0",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "Wandlungsfaehigkeit":{
          "label":"Wandlungsfaehigkeit",
-         "ellipse": "0"
+         "ellipse": "0",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "Prozessmanagement":{
          "label":"Prozessmanagement",
-         "ellipse": "0"
+         "ellipse": "0",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "Appisierung":{
          "label":"Appisierung",
-         "ellipse": "90"
+         "ellipse": "90",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "Microservice":{
-         "label":"Microservice"
+         "label":"Microservice",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "DataManagement":{
-         "label":"Data Management"
+         "label":"Data Management",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "ArbeitsOrganisation":{
          "label":"Arbeits- \n Organisation",
          "fill_color":"#8f8f8f",
-         "image": "https://github.com/favicon.ico"
+         "image": "https://github.com/favicon.ico",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "ArbeitsOrganisation2":{
          "label":"Arbeits- \n Organisation",
          "fill_color":"#8f8f8f",
-         "image": "https://github.com/favicon.ico"
+         "image": "https://github.com/favicon.ico",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "Lernen":{
-         "label":"Lernen"
+         "label":"Lernen",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "AgileTeams":{
          "label":"Agile Teams",
-         "ellipse": "0"
+         "ellipse": "0",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "NewEngineeringCulture":{
          "label":"New Engineering Culture",
-         "ellipse": "0"
+         "ellipse": "0",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "Arbeitsplatzgestaltung":{
-         "label":"Arbeitsplatzgestaltung"
+         "label":"Arbeitsplatzgestaltung",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "BetriebsorganisationAufbau":{
          "label":"Betriebsorganisation \n Aufbau",
          "fill_color": "#ed6161",
-         "image": "https://github.com/favicon.ico"
+         "image": "https://github.com/favicon.ico",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "BetriebsorganisationAufbau2":{
          "label":"Betriebsorganisation \n Aufbau",
          "fill_color": "#ed6161",
-         "image": "https://github.com/favicon.ico"
+         "image": "https://github.com/favicon.ico",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "Prozessdigitalisierung":{
          "label":"Prozessdigitalisierung",
-         "ellipse": "45"
+         "ellipse": "45",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "DevOps":{
-         "label":"DevOps"
+         "label":"DevOps",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "BetriebsorganisationAblauf":{
          "label":"Betriebsorganisation Ablauf",
          "fill_color":"#000000",
-         "image": "https://github.com/favicon.ico"
+         "image": "https://github.com/favicon.ico",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "BetriebsorganisationAblauf2":{
          "label":"Betriebsorganisation\nAblauf",
          "fill_color":"#000000",
-         "image": "https://github.com/favicon.ico"
+         "image": "https://github.com/favicon.ico",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "ProcessMining":{
          "label":"Process Mining",
-         "ellipse": "45"
+         "ellipse": "45",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "Fähigkeiten":{
          "label":"Fähigkeiten",
          "fill_color":"#41cf21",
-         "image": "https://github.com/favicon.ico"
+         "image": "https://github.com/favicon.ico",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "Fähigkeiten2":{
          "label":"Fähigkeiten",
          "fill_color":"#41cf21",
-         "image": "https://github.com/favicon.ico"
+         "image": "https://github.com/favicon.ico",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "FachlicheQualifikation":{
-         "label":"Fachliche Qualifikation"
+         "label":"Fachliche Qualifikation",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "Diversifikation":{
-         "label":"Diversifikation"
+         "label":"Diversifikation",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "Technik":{
          "label":"Technik",
          "fill_color": "#f7ed2f",
-         "image": "https://github.com/favicon.ico"
+         "image": "https://github.com/favicon.ico",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "Technik2":{
          "label":"Technik",
          "fill_color": "#f7ed2f",
-         "image": "https://github.com/favicon.ico"
+         "image": "https://github.com/favicon.ico",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "Robotik":{
-         "label":"Robotik"
+         "label":"Robotik",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "AGV":{
-         "label":"AGV"
+         "label":"AGV",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "KunstlicheIntelligenz":{
-         "label":"Kunstliche Intelligenz"
+         "label":"Kunstliche Intelligenz",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       },
       "Blockchain":{
-         "label":"Blockchain"
+         "label":"Blockchain",
+         "modal_data" : {
+            "image": "",
+            "description": ""
+         }
       }
    },
    "lines":[
