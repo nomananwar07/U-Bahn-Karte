@@ -281,6 +281,7 @@
                ],
                "name":"ItArchitektur",
                "marker":"interchange",
+               "labelShiftCoords": [0,-1],
                "labelPos":"S"
             },
             {
@@ -350,7 +351,7 @@
                "name":"Wandlungsfaehigkeit",
                "marker":"interchange",
                "labelPos":"S",
-               "labelShiftCoords": [0,1],
+               "labelShiftCoords": [0,0],
                "shiftCoords":[0,1]
             },
             {
@@ -401,10 +402,19 @@
             },
             {
                "coords":[
-                  88,
-                  50
+                  85,
+                  47
                ],
                "name":"Microservice",
+               "marker":"interchange",
+               "labelPos":"NW"
+            },
+            {
+               "coords":[
+                  90,
+                  52
+               ],
+               "name":"DataManagement",
                "marker":"interchange",
                "labelPos":"NW"
             },
@@ -413,17 +423,9 @@
                   96,
                   58
                ],
-               "name":"DataManagement",
-               "marker":"interchange",
-               "labelPos":"NW"
-            },
-            {
-               "coords":[
-                  102,
-                  64
-               ],
                "name":"ItArchitektur2",
                "marker":"interchange",
+               "labelShiftCoords": [0,1],
                "labelPos":"N"
             }
          ]
@@ -519,6 +521,7 @@
                ],
                "name":"ArbeitsOrganisation2",
                "marker":"interchange",
+               "labelShiftCoords": [1,0],
                "labelPos":"E"
             }
          ]
@@ -641,6 +644,7 @@
                ],
                "name":"BetriebsorganisationAufbau2",
                "marker":"interchange",
+               "labelShiftCoords": [1,1],
                "labelPos":"E"
             }
          ]
@@ -660,6 +664,7 @@
                ],
                "name":"BetriebsorganisationAblauf",
                "marker":"interchange",
+               "labelShiftCoords": [0,2],
                "labelPos":"N"
             },
             {
@@ -755,6 +760,7 @@
                ],
                "name":"BetriebsorganisationAblauf2",
                "marker":"interchange",
+               "labelShiftCoords": [1,1],
                "labelPos":"E"
             }
          ]
@@ -774,6 +780,7 @@
                ],
                "name":"Fähigkeiten",
                "marker":"interchange",
+               "labelShiftCoords": [0,3],
                "labelPos":"N"
             },
             {
@@ -915,6 +922,7 @@
                ],
                "name":"Technik",
                "marker":"interchange",
+               "labelShiftCoords": [1,-3],
                "labelPos":"S"
             },
             {
