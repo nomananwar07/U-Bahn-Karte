@@ -52,4 +52,9 @@ svg{
 .list-group-item .float-end {
     color: crimson;
 }
+
+.station_image {
+    width: 250px;
+    height: 250px;
+}
   

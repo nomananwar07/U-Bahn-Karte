@@ -15,7 +15,8 @@ $( document ).ready( function () {
         .on("click", function (data) {
             const modal = $("#station_modal");
             modal.find('.modal-title').html(data.label);
-            modal.find('.modal-body').html(data.modal_data.description);
+            modal.find('.station_image').attr('src', data.modal_data.image != '' ? data.modal_data.image: data.image);
+            modal.find('.station_description').text(data.modal_data.description);
             modal.modal('show');
         });
 
